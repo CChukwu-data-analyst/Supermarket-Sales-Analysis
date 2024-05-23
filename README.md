@@ -10,14 +10,25 @@ All dataset and reports here do not represent any company, institution or state 
 
 ## Problem Statement
 
-1. Which product has the highest impact in income in the current quarter?
+1. What is the overall sales trend?
+1. Which product in the current quarter has the highest impact in income?
 2. What is the worth in Naira of the total products available?
-3. What is the average cost per product?
+3. What are the sales peak period?
 
-## Skills / Cocepts demonstrated
+## Skills / Concepts demonstrated
 
 The following python and Sql features were incorporated
 - pandas - import dataset
 - numpy - manipulate values
 - matplotlib - plot visualizations
 - GitHub - creating reports
+
+## Data Analysis
+
+```python
+sales_df = pd.read_sql(query, conn)
+```
+
+```sql
+select * from sales
+```
