@@ -1,5 +1,11 @@
 # Supermarket-Sales-Analysis
 ## Nasa Supermarket Analysis
+## Table of Content
+
+- [Project Overview](project-overview)
+- [Skills / Concepts demonstrated](skills-concepts-demonstrated)
+- [Data Analysis](data-analysis)
+
 ## Introduction
 ***
 This is a python and SQL project on an imaginary supermarket called **Nasa Supermarket**.
@@ -32,3 +38,5 @@ sales_df = pd.read_sql(query, conn)
 ```sql
 select * from sales
 ```
+
+## Visualization
