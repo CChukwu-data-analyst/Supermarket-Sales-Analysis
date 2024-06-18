@@ -30,13 +30,19 @@ The following python and Sql features were incorporated
 - GitHub - creating reports
 
 ## Data Analysis
+Some interesting codes or features worked with
 
 ```python
-sales_df = pd.read_sql(query, conn)
+sales_df = pd.read_csv("C:/Users/Nasa/Databank Analysis/Dataframe/sales.csv")
 ```
+
 
 ```sql
 select * from sales
+```
+
+```
+sales.columns = [i.lower() for i in sales.columns]
 ```
 
 ## Visualization
