@@ -2,7 +2,7 @@
 ## Nasa Supermarket Analysis
 ## Table of Content
 
-- [Project Overview](project-overview)
+- [Problem Statement](problem-statement)
 - [Skills / Concepts demonstrated](skills-concepts-demonstrated)
 - [Data Analysis](data-analysis)
 
